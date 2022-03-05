@@ -4,7 +4,7 @@
 
 ## Updates css to meet accessibilties standards
 
-[Link to deployed website:](https://trv893.github.io/html_css_git_refactor/git)
+[Link to deployed website:](https://trv893.github.io/html_css_git_refactor)
 
 ### before
 ![image before refactor](./images/before.PNG)
