@@ -1,16 +1,16 @@
 # html_css_git_refactor
 
-#readme
+# readme
 
-##Updates css to meet accessibilties standards
+## Updates css to meet accessibilties standards
 
-Link to deployed website: https://trv893.github.io/html_css_git_refactor/git 
+[Link to deployed website:](https://trv893.github.io/html_css_git_refactor/git)
 
-###before
+### before
 ![image before refactor](./images/before.PNG)
-()
 
-###after
+
+### after
 ![image after refactor](./images/before.PNG)
-(./images/before.PNG)
+
 
