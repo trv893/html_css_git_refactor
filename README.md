@@ -7,8 +7,10 @@
 Link to deployed website: https://trv893.github.io/html_css_git_refactor/git 
 
 ###before
-(./images\before.PNG)
+![image before refactor](./images/before.PNG)
+()
 
 ###after
-(./images\before.PNG)
+![image after refactor](./images/before.PNG)
+(./images/before.PNG)
 
