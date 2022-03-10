@@ -1,56 +1,49 @@
-universal style for 
+/* universal style setting box sizing, padding and margin for entire doc */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets backgorund color of the website */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
+/* sets padding, font fam, bkgcolor of header */
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
+/* sets nav list font color and removes list decoration */
+header nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+/* sets font size for the websites main text */
+main section p {
     font-size: 16px;
 }
 
+/* sets size of images in main content sections */
+main section img {
+    max-height: 200px;
+}
+
+
+/* stles footer including padding, centering around floated items, font and centering */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* sets font size for footer text */
+footer h2 {
+    font-size: 20px;
+}
+
+
+/* adds, positions and sizes the hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +53,60 @@ p {
     background-position: center;
 }
 
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* orients header items horizontally, text color and sets font size */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+/* sets padding, margin, position to right, font, and font size for navigation in header */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* removes list styling from header */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* sets nav list to horizontal display */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* orients the main sections to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* orients the main items to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets the width, orientation and margin for the main elements on website */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the aside benefit content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,12 +120,13 @@ p {
     color: #ffffff;
 }
 
+/* adds margin and centers the aside benefit content */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* orients the aside benefit imgage content and sets size */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -102,6 +134,7 @@ p {
     max-height: 200px;
 }
 
+/* styles the main sections for content of page */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,24 +145,8 @@ p {
 }
 
 
-main section img {
-    max-height: 200px;
-    
-}
-
+/* styles text in main content section */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
